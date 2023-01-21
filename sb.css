@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('image3.jpg');
+    background-position: centre;
+    background-size: cover;
+position: relative;
+color: var(--primary-text-color);
+
+}
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #091446;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+    
+}
+h1{
+    font-size: 3em;
+}
+a{
+text-decoration: none;
+display: inline-block+;
+}
+ul{
+list-style: none;
+}
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+  color: var(--accent-color)
+}
+.top-banner{
+    background-image: url("./assets/ 30.png");
+    background-color: #162266;
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+    
+}
+.flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.logo{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heading{
+    padding-left: center;
+    color: rgb(21, 7, 68)
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+}

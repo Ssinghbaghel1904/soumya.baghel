@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.photo{
+    margin: 30px;
+    padding: 15px;
+    background-color: rgb(115, 164, 228);
+}
